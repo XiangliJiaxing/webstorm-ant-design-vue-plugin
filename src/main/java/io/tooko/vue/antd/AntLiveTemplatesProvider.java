@@ -12,7 +12,7 @@ public class AntLiveTemplatesProvider implements DefaultLiveTemplatesProvider {
 
     @Override
     public String[] getDefaultLiveTemplateFiles() {
-        return new String[]{ "antd" };
+        return new String[]{ "liveTemplates/antTemplate" };
     }
 
     @Nullable

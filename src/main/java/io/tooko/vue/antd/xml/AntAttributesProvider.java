@@ -9,10 +9,11 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashMap;
 import java.util.Map;
 
+// 自定义标签属性支持
 public class AntAttributesProvider implements XmlAttributeDescriptorsProvider {
 
     /**
-     * 给标签加属性
+     * 给标签加属性（该方法需要返回XmlTag对应的所有属性的Descriptor列表）
      * @param xmlTag
      * @return
      */
@@ -34,6 +35,12 @@ public class AntAttributesProvider implements XmlAttributeDescriptorsProvider {
         return XmlAttributeDescriptor.EMPTY;
     }
 
+    /**
+     * 该方法返回名为s的XmlTag所对应的单个Descriptor
+     * @param s
+     * @param xmlTag
+     * @return
+     */
     @Nullable
     @Override
     public XmlAttributeDescriptor getAttributeDescriptor(String s, XmlTag xmlTag) {

@@ -11,6 +11,7 @@ public class DocumentProvider extends AbstractDocumentationProvider {
     @Override
     public String generateDoc(PsiElement element, @Nullable PsiElement originalElement) {
         // return super.generateDoc(element, originalElement);
+        assert originalElement != null;
         String text = originalElement.getText();
 
         if (text != null) {

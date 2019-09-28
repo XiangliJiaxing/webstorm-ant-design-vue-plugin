@@ -1,3 +1,5 @@
+<!-- 配置文档 http://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_configuration_file.html-->
+
 <idea-plugin>
   <id>io.tooko.vue.antd</id>
   <name>Ant Design Vue</name>
@@ -5,29 +7,32 @@
   <vendor email="18x@loacg.com" url="https://github.com/vueComponent">vueComponent</vendor>
 
   <description><![CDATA[
-      Support for Ant Design of Vue.
+      Support for Ant Design of Vue. Powered By xljx.
     ]]></description>
 
   <change-notes><![CDATA[
-      coding.
+      1.idea 中智能提示功能
     ]]>
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="173.0" until-build="173.*"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
   <!-- uncomment to enable plugin in all products -->
-  <depends>JavaScript</depends>
+    <!--仅在支持js的平台上使用-->
+<!--  <depends>JavaScript</depends>-->
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
 
-    <fileTypeFactory implementation="io.tooko.vue.antd.AntFileTypeFactory" />
+      <!--文件类型-->
+<!--    <fileTypeFactory implementation="io.tooko.vue.antd.AntFileTypeFactory" />-->
 
     <!-- 代码块提示 -->
     <defaultLiveTemplatesProvider implementation="io.tooko.vue.antd.AntLiveTemplatesProvider" />
+    <liveTemplateContext implementation="io.tooko.vue.antd.AntContext" />
 
     <!-- 标签文档提示 -->
     <lang.documentationProvider language="HTML" implementationClass="io.tooko.vue.antd.document.DocumentProvider" order="first" />

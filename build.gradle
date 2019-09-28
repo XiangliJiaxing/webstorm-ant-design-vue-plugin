@@ -1,30 +1,30 @@
+
+// https://github.com/JetBrains/gradle-intellij-plugin#the-latest-version
 plugins {
-//    id 'com.gradle.build-scan' version '2.4.2'
     id 'java'
     id 'org.jetbrains.intellij' version '0.4.10'
 }
 
-//apply plugin: 'java'
-//apply plugin:  'org.jetbrains.intellij'
+group="com.xljx.web"
+version='0.0.1'
 
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-//sourceSets {
-//    main {
-//        java {
-//            srcDir 'src/java' // 指定源码目录
-//        }
-//        resources {
-//            srcDir 'src/resources' //资源目录
-//        }
-//    }
-//}
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java' // 指定源码目录
+        }
+        resources {
+            srcDir 'resources' //资源目录
+        }
+    }
+}
+//  buildScript 会自动产生
 //buildScript{
     repositories {
-    //    gcenter()
-    //    maven { url "https://plugins.gradle.org/m2/"}
         mavenCentral()
         maven {
             url "https://oss.sonatype.org/content/repositories/snapshots/"
@@ -42,6 +42,7 @@ dependencies {
 //    classpath "com.gradle:build-scan-plugin:2.4.2"
 }
 
+// 调试时使用的Intellij Platform
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version '2019.2.2'

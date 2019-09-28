@@ -1,12 +1,12 @@
 package io.tooko.vue.antd;
 
-import com.intellij.lang.Language;
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
+// 定义文件类型
 public class AntFileType extends LanguageFileType {
 
     public static final AntFileType INSTANCE = new AntFileType();
@@ -27,6 +27,7 @@ public class AntFileType extends LanguageFileType {
         return "Ant Design Vue language file";
     }
 
+    // 定义文件扩展名
     @NotNull
     @Override
     public String getDefaultExtension() {
