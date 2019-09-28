@@ -1,4 +1,4 @@
-package io.tooko.vue.antd;
+package io.tooko.vue.antd.lang;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
@@ -6,7 +6,11 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
 
-// 定义文件类型
+/**
+ * 定义文件类型
+ *
+ * @author XiangliJiaxing
+ */
 public class AntFileType extends LanguageFileType {
 
     public static final AntFileType INSTANCE = new AntFileType();
@@ -18,7 +22,7 @@ public class AntFileType extends LanguageFileType {
     @NotNull
     @Override
     public String getName() {
-        return "Ant";
+        return "Ant-Design";
     }
 
     @NotNull
@@ -31,9 +35,10 @@ public class AntFileType extends LanguageFileType {
     @NotNull
     @Override
     public String getDefaultExtension() {
-        return "vueComponent";
+        return "vue";
     }
 
+    // 定义文件图标
     @Nullable
     @Override
     public Icon getIcon() {

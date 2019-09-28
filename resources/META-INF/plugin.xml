@@ -27,19 +27,24 @@
 
   <extensions defaultExtensionNs="com.intellij">
 
-      <!--文件类型-->
-<!--    <fileTypeFactory implementation="io.tooko.vue.antd.AntFileTypeFactory" />-->
 
-    <!-- 代码块提示 -->
+    <!-- 通用性代码块提示 -->
     <defaultLiveTemplatesProvider implementation="io.tooko.vue.antd.AntLiveTemplatesProvider" />
     <liveTemplateContext implementation="io.tooko.vue.antd.AntContext" />
 
-    <!-- 标签文档提示 -->
-    <lang.documentationProvider language="HTML" implementationClass="io.tooko.vue.antd.document.DocumentProvider" order="first" />
-
+    <!--文件类型-->
+    <!-- http://www.jetbrains.org/intellij/sdk/docs/tutorials/custom_language_support/language_and_filetype.html -->
+    <!--    <fileTypeFactory implementation="io.tooko.vue.antd.lang.AntFileTypeFactory" />-->
+    <fileType name="Ant Design Vue" implementationClass="io.tooko.vue.antd.lang.AntFileType"
+              fieldName="INSTANCE" language="Ant Design Vue" extensions="vue"/>
+    <!-- 自定义标签 -->
     <xml.tagNameProvider implementation="io.tooko.vue.antd.xml.AntTagNameProvider" />
     <xml.elementDescriptorProvider implementation="io.tooko.vue.antd.xml.AntTagNameProvider" order="first" />
     <xml.attributeDescriptorsProvider implementation="io.tooko.vue.antd.xml.AntAttributesProvider" />
+
+
+    <!-- 标签文档提示 -->
+    <lang.documentationProvider language="HTML" implementationClass="io.tooko.vue.antd.document.DocumentProvider" order="first" />
 
   </extensions>
 

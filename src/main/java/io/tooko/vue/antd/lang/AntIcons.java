@@ -1,12 +1,12 @@
-package io.tooko.vue.antd;
+package io.tooko.vue.antd.lang;
 
 import com.intellij.openapi.util.IconLoader;
 
 import javax.swing.*;
 
 /**
- * 定义图标
- * @author Sendya
+ * 定义语言图标
+ * @author XiangliJiaxing
  */
 public class AntIcons {
 
