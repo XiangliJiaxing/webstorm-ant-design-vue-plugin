@@ -1,0 +1,606 @@
+<templateSet group="TEST">
+    <template name="a-button" value="&lt;a-button&gt; &lt;/a-button&gt;"
+              description="to trigger an operation." toReformat="true" toShortenFQNames="true">
+        <variable name="auto-complete" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+
+<!--            <option name="HTML_TEXT" value="true" />-->
+<!--            <option name="HTML" value="true" />-->
+<!--            <option name="XSL_TEXT" value="false" />-->
+<!--            <option name="XML" value="false" />-->
+<!--            <option name="JSP" value="false" />-->
+<!--            <option name="CSS_PROPERTY_VALUE" value="false" />-->
+<!--            <option name="CSS_DECLARATION_BLOCK" value="false" />-->
+<!--            <option name="CSS_RULESET_LIST" value="false" />-->
+<!--            <option name="CSS" value="false" />-->
+<!--            <option name="JAVA_SCRIPT" value="false" />-->
+<!--            <option name="TypeScript" value="false" />-->
+<!--            <option name="SQL" value="false" />-->
+<!--            <option name="CUCUMBER_FEATURE_FILE" value="false" />-->
+<!--            <option name="CoffeeScript" value="false" />-->
+<!--            <option name="PHP" value="true" />-->
+<!--            <option name="HAML" value="false" />-->
+<!--            <option name="OTHER" value="true" />-->
+        </context>
+    </template>
+    <template name="a-icon" value="&lt;a-icon&gt; &lt;/a-icon&gt;"
+              description="semantic vector graphics" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-row" value="&lt;a-row&gt; &lt;/a-row&gt;"
+              description="a row in grid system." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-col" value="&lt;a-col&gt; &lt;/a-col&gt;"
+              description="a column in grid system" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-layout" value="&lt;a-layout&gt; &lt;/a-layout&gt;"
+              description="layout" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-layout-sider" value="&lt;a-layout-sider&gt; &lt;/a-layout-sider&gt;"
+              description="layout sider" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-layout-header" value="&lt;a-layout-header&gt; &lt;/a-layout-header&gt;"
+              description="layout header" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-layout-content" value="&lt;a-layout-content&gt; &lt;/a-layout-content&gt;"
+              description="layout content" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-layout-footer" value="&lt;a-layout-footer&gt; &lt;/a-layout-footer&gt;"
+              description="layout footer." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-affix" value="&lt;a-affix&gt; &lt;/a-affix&gt;"
+              description="make an element stick to viewport" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-breadcrumb" value="&lt;a-breadcrumb&gt; &lt;/a-breadcrumb&gt;"
+              description="a breadcrumb displays the current location within a hierarchy. It allows going back to states higher up in the hierarchy."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-breadcrumb-item" value="&lt;a-breadcrumb-item&gt; &lt;/a-breadcrumb-item&gt;"
+              description="breadcrumb item" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-dropdown" value="&lt;a-dropdown&gt; &lt;/a-dropdown&gt;"
+              description="a dropdown list." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-dropdown-button" value="&lt;a-dropdown-button&gt; &lt;/a-dropdown-button&gt;"
+             description="a dropdown button list." toReformat="true" toShortenFQNames="true">
+    <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+        <option name="JAVASCRIPT" value="true" />
+    </context>
+    </template>
+    <template name="a-menu" value="&lt;a-menu&gt; &lt;/a-menu&gt;"
+              description="menu list of navigation" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-menu-item" value="&lt;a-menu-item&gt; &lt;/a-menu-item&gt;"
+              description="menu item of navigation" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-sub-menu" value="&lt;a-sub-menu&gt; &lt;/a-sub-menu&gt;"
+              description="sub menu of navigation" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-pagination" value="&lt;a-pagination&gt; &lt;/a-pagination&gt;"
+              description="A long list can be divided into several pages by ‘Pagination’, and only one page will be loaded at a time."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-steps" value="&lt;a-steps&gt; &lt;/a-steps&gt;"
+              description="The whole of the step bar." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-step" value="&lt;a-step&gt; &lt;/a-step&gt;"
+              description="A single step in the step bar." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-auto-complete" value="&lt;a-auto-complete&gt; &lt;/a-auto-complete&gt;"
+              description="Autocomplete function of input field." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-cascader" value="&lt;a-cascader&gt; &lt;/a-cascader&gt;"
+              description="Cascade selection box." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-checkbox" value="&lt;a-checkbox&gt; &lt;/a-checkbox&gt;"
+              description="Checkbox component" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-checkbox-group" value="&lt;a-checkbox-group&gt; &lt;/a-checkbox-group&gt;"
+              description="Checkbox group component" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-date-picker" value="&lt;a-date-picker&gt; &lt;/a-date-picker&gt;"
+              description="To select or input a date of day." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-month-picker" value="&lt;a-month-picker&gt; &lt;/a-month-picker&gt;"
+              description="To select or input a date of month." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-range-picker" value="&lt;a-range-picker&gt; &lt;/a-range-picker&gt;"
+              description="To select or input a range date ." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-week-picker" value="&lt;a-week-picker&gt; &lt;/a-week-picker&gt;"
+              description="To select or input a date of week" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-form" value="&lt;a-form&gt; &lt;/a-form&gt;"
+              description="Form is used to collect, validate, and submit the user input, usually contains various form items including checkbox, radio, input, select, and etc."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-form-item" value="&lt;a-form-item&gt; &lt;/a-form-item&gt;"
+              description="Form is used to collect, validate, and submit the user input, usually contains various form items including checkbox, radio, input, select, and etc."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-input" value="&lt;a-input&gt; &lt;/a-input&gt;"
+              description="A basic widget for getting the user input is a text field."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-textarea" value="&lt;a-textarea&gt; &lt;/a-textarea&gt;"
+              description="A basic widget for getting the user textarea is a text field."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-input-group" value="&lt;a-input-group&gt; &lt;/a-input-group&gt;"
+              description="A basic widget for getting the user input is a text field." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-input-number" value="&lt;a-input-number&gt; &lt;/a-input-number&gt;"
+              description="Enter a number within certain range with the mouse or keyboard." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-radio" value="&lt;a-radio&gt; &lt;/a-radio&gt;"
+              description="radio" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-radio-group" value="&lt;a-radio-group&gt; &lt;/a-radio-group&gt;"
+              description="radio of group" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-rate" value="&lt;a-rate&gt; &lt;/a-rate&gt;"
+              description="Rate component." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-select" value="&lt;a-select&gt; &lt;/a-select&gt;"
+              description="Select component to select value from options." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-select-option" value="&lt;a-select-option&gt; &lt;/a-select-option&gt;"
+              description="select option." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-slider" value="&lt;a-slider&gt; &lt;/a-slider&gt;"
+              description="A Slider component for displaying current value and intervals in range." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-switch" value="&lt;a-switch&gt; &lt;/a-switch&gt;"
+              description="Switching Selector." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-time-picker" value="&lt;a-time-picker&gt; &lt;/a-time-picker&gt;"
+              description="To select/input a time." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-transfer" value="&lt;a-transfer&gt; &lt;/a-transfer&gt;"
+              description="Transfer the elements between two columns in an intuitive and efficient way." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tree-select" value="&lt;a-tree-select&gt; &lt;/a-tree-select&gt;"
+              description="tree select" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tree-select-node" value="&lt;a-tree-select-node&gt; &lt;/a-tree-select-node&gt;"
+              description="tree select node" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-upload" value="&lt;a-upload&gt; &lt;/a-upload&gt;"
+              description="Upload file by selecting or dragging." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-avatar" value="&lt;a-avatar&gt; &lt;/a-avatar&gt;"
+              description="Avatars can be used to represent people or objects. It supports images, ‘Icon’s, or letters." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-badge" value="&lt;a-badge&gt; &lt;/a-badge&gt;"
+              description="Small numerical value or status descriptor for UI elements." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-calendar" value="&lt;a-calendar&gt; &lt;/a-calendar&gt;"
+              description="Container for displaying data in calendar form." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-card" value="&lt;a-card&gt; &lt;/a-card&gt;"
+              description="Simple rectangular container." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-card-meta" value="&lt;a-card-meta&gt; &lt;/a-card-meta&gt;"
+              description="use Card.Meta to support more flexible content." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-carousel" value="&lt;a-carousel&gt; &lt;/a-carousel&gt;"
+              description="A carousel component. Scales with its container." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-collapse" value="&lt;a-collapse&gt; &lt;/a-collapse&gt;"
+              description="A content area which can be collapsed and expanded." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-collapse-panel" value="&lt;a-collapse-panel&gt; &lt;/a-collapse-panel&gt;"
+              description="A content area which can be collapsed and expanded." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-list" value="&lt;a-list&gt; &lt;/a-list&gt;"
+              description="Simple List." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-list-item" value="&lt;a-list-item&gt; &lt;/a-list-item&gt;"
+              description="List Item" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-list-item-meta" value="&lt;a-list-item-meta&gt; &lt;/a-list-item-meta&gt;"
+              description="List Item Meta" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-popover" value="&lt;a-popover&gt; &lt;/a-popover&gt;"
+              description="The floating card popped by clicking or hovering." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tooltip" value="&lt;a-tooltip&gt; &lt;/a-tooltip&gt;"
+              description="A simple text popup tip." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-table" value="&lt;a-table&gt; &lt;/a-table&gt;"
+              description="A table displays rows of data." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tabs" value="&lt;a-tabs&gt; &lt;/a-tabs&gt;"
+              description="Tabs make it easy to switch between different views." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tab-pane" value="&lt;a-tab-pane&gt; &lt;/a-tab-pane&gt;"
+              description="tab pane" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tag" value="&lt;a-tag&gt; &lt;/a-tag&gt;"
+              description="Tag for categorizing or markup." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-checkable-tag" value="&lt;a-checkable-tag&gt; &lt;/a-checkable-tag&gt;"
+              description="checkable tag." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-timeline" value="&lt;a-timeline&gt; &lt;/a-timeline&gt;"
+              description="Vertical display timeline." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-timeline-item" value="&lt;a-timeline-item&gt; &lt;/a-timeline-item&gt;"
+              description="Vertical display timeline item." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tree" value="&lt;a-tree&gt; &lt;/a-tree&gt;"
+              description="tree." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-tree-node" value="&lt;a-tree-node&gt; &lt;/a-tree-node&gt;"
+              description="tree node." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-alert" value="&lt;a-alert&gt; &lt;/a-alert&gt;"
+              description="Alert component for feedback." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-drawer" value="&lt;a-drawer&gt; &lt;/a-drawer&gt;"
+              description="Panel slides from screen edge." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-modal" value="&lt;a-modal&gt; &lt;/a-modal&gt;"
+              description="Modal dialogs." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-popconfirm" value="&lt;a-popconfirm&gt; &lt;/a-popconfirm&gt;"
+              description="A simple and compact confirmation dialog of an action."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-progress" value="&lt;a-progress&gt; &lt;/a-progress&gt;"
+              description="Display the current progress of an operation flow." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-skeleton" value="&lt;a-skeleton&gt; &lt;/a-skeleton&gt;"
+              description="Provide a placeholder at the place which need waiting for loading."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-spin" value="&lt;a-spin&gt; &lt;/a-spin&gt;"
+              description="A spinner for displaying loading state of a page or a section."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-anchor" value="&lt;a-anchor&gt; &lt;/a-anchor&gt;"
+              description="Hyperlinks to scroll on one page." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-anchor-link" value="&lt;a-anchor-link&gt; &lt;/a-anchor-link&gt;"
+              description="anchor link" toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-back-top" value="&lt;a-back-top&gt; &lt;/a-back-top&gt;"
+              description="BackTop makes it easy to go back to the top of the page."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-divider" value="&lt;a-divider&gt; &lt;/a-divider&gt;"
+              description="A divider line separates different content."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-locale-provider" value="&lt;a-locale-provider&gt; &lt;/a-locale-provider&gt;"
+              description="LocaleProvider provides a uniform localization support for built-in text of components." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-comment" value="&lt;a-comment&gt; &lt;/a-comment&gt;"
+              description="A comment displays user feedback and discussion to website content."
+              toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+    <template name="a-config-provider" value="&lt;a-config-provider&gt; &lt;/a-config-provider&gt;"
+              description="ConfigProvider provides a uniform configuration support for components." toReformat="true" toShortenFQNames="true">
+        <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="JAVASCRIPT" value="true" />
+        </context>
+    </template>
+</templateSet>
